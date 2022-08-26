@@ -12,10 +12,6 @@ const movieSchema = new mongoose.Schema({
         default: 'Not Specified',
     },
 
-    releaseDate: {
-        type: Date,
-        default: 'Not Specified',
-    },
 
     rating: {
         type: Number,
