@@ -82,6 +82,7 @@ const app = async (yargsObject) => {
           actor: yargsObject.actor,
         });
         console.log(await listTvShow());
+        
       } else if (yargsObject.listTv) {
         console.log(await listTvShow());
 
